@@ -6,7 +6,6 @@
 package cit260.mormontrail.model;
 import java.io.Serializable;
 import java.util.Objects;
-
 /**
  *
  * @author rherrerajr

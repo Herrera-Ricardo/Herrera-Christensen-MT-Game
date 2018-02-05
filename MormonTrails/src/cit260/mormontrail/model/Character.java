@@ -6,7 +6,7 @@
 package cit260.mormontrail.model;
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Objects;
+import java.util.Objects; 
 
 /**
  *

@@ -5,6 +5,7 @@
  */
 package mormontrails;
 import cit260.mormontrail.model.Character;
+
 /**
  *
  * @author Ricardo-Mini
