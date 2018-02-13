@@ -17,6 +17,10 @@ public class Map implements Serializable{
     public Map(String currentLocation) {
         this.currentLocation = currentLocation;
     }
+
+    public Map() {
+       
+    }
     
     public String getCurrentLocation() {
         return currentLocation;

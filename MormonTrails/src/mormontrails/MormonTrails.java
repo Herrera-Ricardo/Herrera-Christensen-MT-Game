@@ -5,6 +5,10 @@
  */
 package mormontrails;
 import cit260.mormontrail.model.Character;
+import cit260.mormontrail.model.Game;
+import cit260.mormontrail.model.InventoryItem;
+import cit260.mormontrail.model.Map;
+import java.util.Set;
 
 /**
  *
@@ -33,7 +37,34 @@ public class MormonTrails {
         double characterOneCurrentHealth = characterOne.getCurrentHealth();
         
         System.out.println(characterOne.toString());
+         
+        
+        Game gameOne = new Game();
+        
+        gameOne.setPace(2);
+        gameOne.setMilesTraveled(50);
+        gameOne.setDayOnTrail(5);
+        gameOne.setCurrentMoneyBalance(500);
+        
+        System.out.println(gameOne.toString());
+        
+        InventoryItem inventoryItemOne = new InventoryItem();
+        
+        inventoryItemOne.setOxen(2);
+        inventoryItemOne.setWagonWheel(2);
+        inventoryItemOne.setWagon(1);
+        inventoryItemOne.setFood(1000);
+        inventoryItemOne.setAmmunition(50);
+        
+        System.out.println(inventoryItemOne.toString());
+        
+        Map mapOne = new Map();
+        
+        mapOne.setCurrentLocation("Nauvoo");
+        
+        System.out.println(mapOne.toString());
                 
+        
     }
     
 }

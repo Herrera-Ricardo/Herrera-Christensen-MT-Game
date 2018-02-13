@@ -17,16 +17,16 @@ public class Game implements Serializable{
     private double pace;
     private double milesTraveled;
     private double currentMoneyBalance;
-    private Character character;
+    private String character;
     
     public Game() {
     }
 
-    public Character getCharacter() {
+    public String getCharacter() {
         return character;
     }
 
-    public void setCharacter(Character character) {
+    public void setCharacter(String character) {
         this.character = character;
     }
     

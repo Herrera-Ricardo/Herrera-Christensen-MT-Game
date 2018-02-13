@@ -12,7 +12,7 @@ import java.util.Objects;
  */
 public class InventoryItem implements Serializable{
 
-    private String oxen;
+    private double oxen;
     private double wagon;
     private double food;
     private double wagonWheel;
@@ -22,11 +22,11 @@ public class InventoryItem implements Serializable{
     }
     
 
-    public String getOxen() {
+    public double getOxen() {
         return oxen;
     }
 
-    public void setOxen(String oxen) {
+    public void setOxen(double oxen) {
         this.oxen = oxen;
     }
 
