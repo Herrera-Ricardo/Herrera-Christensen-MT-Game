@@ -25,5 +25,7 @@ public class InventoryControl {
         double capacity = Math.round(wagonWeight * oxen) * 500;
         return capacity;
     }
+    
+    
 
 }
